@@ -1,0 +1,37 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.task-create {
+    width: 450px;
+}
+.task-form {
+    display: flex;
+    flex-direction: column;
+}
+.task-label{
+    margin: 10px 0px;
+}
+.task-input{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.task-button{
+    font-size: 20px;
+    margin: 10px 0px;
+    padding: 10px;
+    border: 1px solid green;
+    background-color: green;
+    color: #ffff;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
